@@ -1,3 +1,18 @@
+
+_Original README below_
+
+Changed a few things to get this up and running:
+
+- Change the Cuberite download URL in Dockerfile
+- Change Debian version from jessie to bullseye 
+- Disable authentication in server settings
+
+I used Minecraft version `1.12.2`.
+
+You can run it with `make serve`.
+
+---
+
 # Dockercraft
 
 ![Dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/logo.png?raw=true)
